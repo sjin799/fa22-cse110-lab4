@@ -1,0 +1,3 @@
+1. The issue is that the sum function takes input as both as string and the addition becomes the string concatenation. There the result will just be a stirng instead of the actual result. 
+2. I apply the Number() to the input string. Therefore, the sum function will work properly by adding two numbers instead of two string. ![image](/explore/devtools/Fix.png)
+The final fix: ![image](/explore/devtools/Fix2.png)
